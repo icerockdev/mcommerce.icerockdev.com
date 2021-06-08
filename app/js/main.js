@@ -209,13 +209,13 @@ $(document).ready(function () {
         }
         if (x) {
             $.ajax({
-                url: ('/sendmail.php'),
+                url: ('https://icerockdev.com/mail.php?type=mcommerce'),
                 type: 'POST',
                 data: {
                     name: popUpFormName.val(),
                     email: popUpFormMail.val(),
-                    theme: popUpFormTheme,
                     phone: popUpFormPhone.val(),
+                    theme: popUpFormTheme,
                     referrer: document.referrer
                 },
             })
@@ -266,7 +266,7 @@ $(document).ready(function () {
       }
       if (x) {
         $.ajax({
-          url: '/sendmail.php',
+          url: 'https://icerockdev.com/mail.php?type=mcommerce',
           type: 'POST',
           data: {
             name: contactFormName.val(),
