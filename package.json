@@ -1,0 +1,37 @@
+{
+  "name": "mcommerce.icerockdev.com",
+  "private": true,
+  "version": "2.0.0",
+  "description": "MCommerce landing of IceRock Development",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp watch",
+    "build": "gulp build",
+    "copyright": "copyright-header --fix --copyrightHolder \"IceRock MAG Inc. Use of this source code is governed by the Apache 2.0 license.\" -i \"app|dist\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "IceRock Development",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "copyright-header": "^0.4.6",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-cache": "^0.4.5",
+    "gulp-clean-css": "^3.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-notify": "^3.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^2.0.1",
+    "jquery-localize": "^0.1.0",
+    "node-bourbon": "^4.2.8"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "jquery-smooth-scroll": "^2.2.0",
+    "slick-carousel": "^1.4.0"
+  }
+}

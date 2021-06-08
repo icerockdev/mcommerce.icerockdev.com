@@ -1,0 +1,14 @@
+/** $MIXINS
+---------------------------------*/
+
+@mixin background-sprite {
+  background-image: url(../img/sprite.png);
+  background-repeat: no-repeat;
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
