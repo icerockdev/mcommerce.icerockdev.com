@@ -71,6 +71,7 @@ gulp.task('build', ['removedist', 'imagemin', 'sass', 'scripts'], function () {
     'app/.htaccess',
     'app/*.json',
     'app/*.php',
+    'app/CNAME',
   ]).pipe(gulp.dest('dist'));
 
   gulp.src([
